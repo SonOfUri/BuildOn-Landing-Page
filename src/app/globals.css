@@ -1,0 +1,113 @@
+@import url("https://www.behance.net/gallery/90690285/KyivType-variable-superfamily/modules/530943943");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--black-gradient: linear-gradient(
+		144.39deg,
+		#ffffff -278.56%,
+		#6d6d6d -78.47%,
+		#11101d 91.61%
+	);
+	--card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+.bg-black-gradient {
+	background: linear-gradient(
+		144.39deg,
+		#ffffff -278.56%,
+		#6d6d6d -78.47%,
+		#11101d 91.61%
+	);
+}
+
+.sidebar {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+	0% {
+		-webkit-transform: translateY(100px);
+		transform: translateY(100px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+/* .text-gradient {
+	background: radial-gradient(
+		64.18% 64.18% at 71.16% 35.69%,
+		#def9fa 0.89%,
+		#bef3f5 17.23%,
+		#9dedf0 42.04%,
+		#7de7eb 55.12%,
+		#5ce1e6 71.54%,
+		#33bbcf 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+} */
+
+.first__gradient {
+	background: #fb8d50;
+	filter: blur(300px);
+}
+
+.second__gradient {
+	background: #dd4f00;
+	filter: blur(200px);
+}
+
+.black__gradient {
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.6) 70%,
+		rgba(0, 0, 0, 0.1) 90%,
+		rgba(0, 0, 0, 0) 100%
+	);
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.black__gradient2 {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0));
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.third__gradient {
+	background: linear-gradient(360deg, #2f2f2f 100%, #696969 100%);
+	filter: blur(250px);
+}
+
+.scrollbar-hide {
+	overflow: -moz-scrollbars-none; /* Firefox */
+	scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, and Opera */
+}
+
+.u-class-shadow {
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+		rgba(255, 255, 255, 0.12) 0px -12px 30px,
+		rgba(255, 255, 255, 0.12) 0px 4px 6px,
+		rgba(255, 255, 255, 0.17) 0px 12px 13px,
+		rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
