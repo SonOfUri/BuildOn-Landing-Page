@@ -19,7 +19,7 @@ const FinalSection: React.FC = () => {
                         <div className="">
                             <div className="flex items-center gap-2 sm:gap-8 font-medium text-xs ss:text-sm mt-8 z-10">
                                 <a
-                                    href="https://app.lendbit.finance/"
+                                    href="https://mainnet.lendbit.finance/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-[#C74A04] px-3 sm:px-6 xs:py-2 py-3 rounded-lg text-[15px] sm:text-[18px] sm:leading-[32px] font-semibold flex-shrink-0"

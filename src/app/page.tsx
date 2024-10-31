@@ -6,6 +6,7 @@ import SquareCards from "@/components/SquareCards";
 import HowToBuy from "@/components/HowToBuy";
 import MarketSection from "@/components/MarketSection";
 import FinalSection from "@/components/FinalSection";
+import PoweredBy from "@/components/PoweredBy";
 
 export default function Home() {
  
@@ -55,6 +56,14 @@ export default function Home() {
       <MarketSection />
 
       <FinalSection />
+
+      <div className="md:max-w-[94%] m-auto">
+          <div className="px-6 flex justify-center items-center">
+            <div className="xl:max-w-[1440px] w-full">
+              <PoweredBy />
+            </div>
+          </div>
+        </div>
     </div>
   );
 }

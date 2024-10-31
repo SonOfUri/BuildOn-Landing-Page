@@ -15,7 +15,7 @@ const MarketSection: React.FC = () => {
 
             {/* Visit Marketplace Button */}
             <button className="py-2 border border-white text-white rounded-full hover:bg-white hover:text-black transition duration-300 mb-12 z-10">
-                <a href='https://app.lendbit.finance/marketplace'
+                <a href='https://mainnet.lendbit.finance/marketplace'
                     className='px-8'
                     target="_blank"
                     rel="noopener noreferrer"

@@ -21,7 +21,7 @@ const CardDetails = () => {
         </div>
 
         <div className='rounded-3xl text-[#B44000] border-white border-[2px] my-6 w-fit py-2'>
-          <a href='https://app.lendbit.finance/' className='px-4'>
+          <a href='https://mainnet.lendbit.finance/' className='px-4'>
             {"Deposit Collateral _>"}
           </a>
         </div>
