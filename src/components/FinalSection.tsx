@@ -52,7 +52,7 @@ const FinalSection: React.FC = () => {
             </div>
 
             {/* Yellow Image (Center-Bottom Placeholder) */}
-            <div className='u-class-shadow mt-20 mb-8 md:mb-16 z-10'>
+            <div className='u-class-shadow mt-4 sm:mt-20 mb-8 md:mb-16 z-10'>
                 <div className="w-full max-w-5xl">
                     <img
                         src="/Dashboard.png"
