@@ -57,13 +57,13 @@ export default function Home() {
 
       <FinalSection />
 
-      <div className="md:max-w-[94%] m-auto">
+      {/* <div className="md:max-w-[94%] m-auto">
           <div className="px-6 flex justify-center items-center">
             <div className="xl:max-w-[1440px] w-full">
               <PoweredBy />
             </div>
           </div>
-        </div>
+        </div> */}
     </div>
   );
 }

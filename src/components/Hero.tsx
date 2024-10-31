@@ -1,3 +1,6 @@
+import { poweredBy } from "@/constants";
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <section id="home" className="flex flex-col md:flex-row sm:py-16 py-6">
@@ -32,7 +35,27 @@ const Hero = () => {
           >
             Open Dapp
           </a>
-        </div>
+          </div>
+
+          <div className="mt-8 flex flex-col">
+            <h3 className="text-[11px] sm:text-xs text-[#DEDFE3] uppercase tracking-wide mb-4 sm:mb-6 bg-[#22242F] py-3 px-4 rounded-3xl w-fit">
+              Powered By          
+            </h3>
+            <div className="flex gap-4 items-center">
+              {poweredBy.map((support, index) => (
+                <div key={index}>
+                  <Image
+                    src={support.img}
+                    alt={support.name}
+                    width={160}
+                    height={100}
+                    layout="responsive"
+                    className="h-auto max-w-[160px]"
+                  />
+                </div>
+              ))}
+            </div>  
+          </div>
         </div>
       </div>
 
