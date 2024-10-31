@@ -1,12 +1,10 @@
-// import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
 export const navLinks = [
   {
     id: "https://docs.lendbit.finance/",
     title: "Docs",
   },
   {
-    id: "https://app.lendbit.finance/",
+    id: "https://mainnet.lendbit.finance/",
     title: "Open dApp",
   },
 ];
@@ -67,4 +65,19 @@ export  const cardData = [
       description: "Secure the funds you need by borrowing against your crypto collateral. Enjoy competitive rates and flexible repayment options, empowering you to access liquidity without selling your assets.",
       bg: "#131317"
     },
-  ];
+];
+  
+export const poweredBy= [
+  {
+    img: "/Quick node.png",
+    name: "Quick node"
+  },
+  {
+    img: "/odos.png",
+    name: "Odos"
+  },
+  {
+    img: "/coinpaprika.png",
+    name: "Coinpaprika"
+  }
+]
