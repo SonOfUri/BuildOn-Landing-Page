@@ -17,14 +17,6 @@ Lendbit is a decentralized peer-to-peer (P2P) lending and borrowing platform tha
 - **P2P Loan Interaction**: Borrowers can browse loan offers, and lenders can customize loan terms directly within the interface.
 - **Collateral Management**: Easily manage token deposits, loan health, and automated liquidation.
 
-## Smart Wallet Integration
-
-The Lendbit frontend integrates **smart wallet** technology to enhance the user experience by automating gas fees and managing on-chain transactions efficiently. Once a user connects their wallet (such as MetaMask or WalletConnect), the smart wallet functionality kicks in, ensuring smooth interaction with the Lendbit contracts.
-
-## Basename Configuration
-
-Lendbit's frontend uses **basename** to manage routing paths during deployment. This ensures that the platform can be deployed under different base paths (e.g., `/lendbit/` on a custom domain). Configuration of basename is managed within the Next.js routing setup.
-
 ## Running the Project Locally
 
 To run the Lendbit frontend locally:
