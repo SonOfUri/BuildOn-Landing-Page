@@ -3,7 +3,7 @@
 
 # Lendbit: Decentralized P2P Lending and Borrowing Platform
 
-![Lendbit Logo](public/orange-logo-vertical.png)
+![Lendbit Logo](website-design.png)
 
 ## Overview
 
